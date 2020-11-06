@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86117911-22cd-46e2-b639-ea41e622244a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +58,28 @@
       <option name="presentableId" value="Default" />
       <updated>1604253238382</updated>
     </task>
+    <task id="LOCAL−00001" summary="Adding HelloWorldMaven">
+      <created>1604254936322</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1604254936322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding HelloWorldMaven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding HelloWorldMaven" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="849" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604255699870">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="849" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1011@0.23.1920.1011" timestamp="1604255699870" />
+    <state x="1024" y="122" key="CommitChangelistDialog2" timestamp="1604254935481">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="1024" y="122" key="CommitChangelistDialog2/0.23.1920.1011@0.23.1920.1011" timestamp="1604254935481" />
     <state width="918" height="274" key="GridCell.Tab.0.bottom" timestamp="1604254436017">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
