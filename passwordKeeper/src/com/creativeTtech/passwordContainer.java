@@ -7,13 +7,15 @@ public class passwordContainer {
 
     public passwordContainer(){
 
-        list.add("password");
-        list.add("password 2");
+
     }
 
-
-
     void printList(LinkedList list){
+
+        if(list.size() == 0){
+            System.out.printf("The list with password is empty.\n\n");
+            return;
+        }
 
         for(int i = 0; i < list.size(); i++ ){
 
