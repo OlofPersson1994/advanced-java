@@ -1,17 +1,19 @@
 package com.creativeTtech;
+import java.io.IOException;
 import java.util.*;
 public class controller {
 
 
-    String masterPassword = "password";
-    String welcomeText = "Welcome to passwordKeeper.\nPlease put in your masterpassword.";
-    String option = ("1: Print passwords\n2: Add new password\n3: Change your masterpassword.");
-    int wrongMasterPasswordCounter = 2;
-    boolean loggedOut = true;
+    private String masterPassword = "password";
+    private String welcomeText = "Welcome to passwordKeeper.\nPlease put in your masterpassword.";
+    private String option = ("1: Print passwords\n2: Add new password\n3: Change your masterpassword.");
+    private int wrongMasterPasswordCounter = 2;
+    private boolean loggedOut = true;
 
 
-    public controller() {
+    public controller() throws IOException {
         passwordContainer passwordContainer = new passwordContainer();
+
         masterLogin();
 
         while (true) {
@@ -36,6 +38,7 @@ public class controller {
                 String addPasswordToList = menuScanner.nextLine();
 
                 passwordContainer.list.add(addPasswordToList);
+                passwordContainer.writeToFile();
             }
             if(menuInput == 3){
 
